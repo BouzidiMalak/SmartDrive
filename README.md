@@ -8,7 +8,7 @@
 
 ## 🎯 Project Overview
 
-SmartDrive ADAS is a comprehensive Advanced Driver Assistance System that combines computer vision, machine learning, and vehicle diagnostics to create a safer driving experience. Built for hackathons and real-world deployment, it provides multiple safety features in an affordable, retrofittable package.
+SmartDrive ADAS is a comprehensive Advanced Driver Assistance System that combines computer vision, machine learning, and vehicle diagnostics to create a safer driving experience. Built for real-world deployment, it provides multiple safety features in an affordable, retrofittable package.
 
 ## 🌟 Key Features
 
@@ -21,11 +21,6 @@ SmartDrive ADAS is a comprehensive Advanced Driver Assistance System that combin
 - Advanced object detection (vehicles, pedestrians, cyclists)
 - Distance estimation and collision risk assessment
 - Real-time audio and visual warnings
-
-### 😴 Driver Fatigue Monitoring
-- Eye tracking and blink pattern analysis
-- Yawn detection using facial landmarks
-- Comprehensive fatigue scoring with progressive alerts
 
 ### 🌙 Night Vision Enhancement
 - Automatic low-light detection
@@ -50,15 +45,12 @@ SmartDrive-ADAS/
 ├── hardware/                 # Hardware components and schematics
 │   ├── schematics/          # Circuit diagrams and wiring
 │   ├── component-list.md    # Bill of materials
-│   └── mounting-designs/    # 3D models and mounting solutions
 │
 ├── software/                # Core application code
 │   ├── vision/              # Computer vision modules
 │   │   ├── lane_detection.py      # Lane detection system
 │   │   ├── object_detection.py    # Object detection and tracking
 │   │   └── night_mode.py          # Night vision enhancement
-│   ├── driver_monitoring/   # Driver state monitoring
-│   │   └── fatigue_detection.py   # Fatigue and alertness monitoring
 │   ├── obd/                 # Vehicle data integration
 │   │   └── obd_reader.py           # OBD-II data acquisition
 │   ├── fusion/              # Sensor fusion and decision making
@@ -68,20 +60,10 @@ SmartDrive-ADAS/
 ├── models/                  # Machine learning models
 │   ├── lane_model.tflite    # Lane detection model
 │   ├── object_model.tflite  # Object detection model
-│   └── fatigue_model.tflite # Fatigue detection model
-│
-├── docs/                    # Documentation and presentations
-│   ├── architecture.pdf     # System architecture diagrams
-│   ├── slides.pptx         # Hackathon presentation
-│   └── hackathon-deliverables.md
-│
-├── demo/                    # Demo materials
-│   ├── video/
-│   │   └── 1min-demo.mp4    # System demonstration video
-│   └── images/              # Screenshots and demo images
-│
+│  │
 └── README.md               # This file
 ```
+
 
 
 
