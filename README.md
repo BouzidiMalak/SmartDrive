@@ -124,11 +124,6 @@ Options:
   --no-display      Run in headless mode
 ```
 
-### Controls
-
-- **'q'**: Quit the application
-- **'d'**: Toggle debug information display
-- **'s'**: Save current safety assessment to file
 
 ## 🔧 Hardware Setup
 
@@ -144,97 +139,12 @@ Options:
 - **Accelerometer**: For motion sensing
 - **Speaker**: For audio alerts
 
-### Wiring Diagram
-See `hardware/schematics/` for detailed connection diagrams.
 
-## 📊 Performance Metrics
 
-| Feature | Accuracy | FPS | Latency |
-|---------|----------|-----|---------|
-| Lane Detection | 95%+ | 30 FPS | <50ms |
-| Object Detection | 92%+ | 25 FPS | <80ms |
-| Fatigue Detection | 88%+ | 15 FPS | <100ms |
-| Night Enhancement | N/A | 30 FPS | <30ms |
 
-## 🎮 Demo
 
-Check out our [demo video](demo/video/1min-demo.mp4) showing SmartDrive ADAS in action!
 
-### Demo Scenarios
-- Highway lane keeping assistance
-- Urban object detection and collision warnings
-- Driver fatigue monitoring during long drives
-- Night driving with enhanced visibility
 
-## 🛠️ Development
 
-### Project Structure
-- **Modular Design**: Each feature is implemented as a separate module
-- **Sensor Fusion**: Central coordination of all subsystems
-- **Real-time Processing**: Optimized for real-time performance
-- **Extensible Architecture**: Easy to add new features
 
-### Adding New Features
-1. Create new module in appropriate directory
-2. Implement standardized data interface
-3. Integrate with sensor fusion system
-4. Update main application loop
 
-## 📈 Safety Impact
-
-- **Lane Departure Prevention**: 30% reduction in lane departure accidents
-- **Collision Avoidance**: 40% reduction in rear-end collisions
-- **Fatigue-Related Accidents**: 25% reduction
-- **Night Driving Safety**: 35% improvement in hazard detection
-
-## 🏆 Hackathon Features
-
-This project is designed specifically for hackathon competitions:
-
-- **Complete in 48 hours**: Fully functional prototype
-- **Impressive demo**: Real-time visual demonstration
-- **Market ready**: Clear path to commercialization
-- **Technical depth**: Advanced AI/ML implementation
-- **Social impact**: Addresses critical safety needs
-
-## 💰 Commercial Potential
-
-### Market Opportunity
-- **Total Addressable Market**: $30B+ automotive safety market
-- **Target Segments**: Consumer aftermarket, fleet management
-- **Competitive Advantage**: Affordable, retrofittable solution
-
-### Business Model
-- **Hardware Sales**: $400-600 per unit
-- **Software Licensing**: $50-100 annual subscription
-- **Data Services**: Fleet analytics and insights
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes with tests
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenCV community for computer vision tools
-- TensorFlow team for machine learning framework
-- Automotive safety researchers for inspiration
-- Hackathon organizers for the opportunity
-
-## 📞 Contact
-
-- **Team Lead**: [Your Name](mailto:your.email@example.com)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Project Link**: [SmartDrive-ADAS](https://github.com/yourusername/SmartDrive-ADAS)
-
----
-
-**Built with ❤️ for safer roads and smarter driving**
