@@ -1,0 +1,7 @@
+# Placeholder for lane detection TensorFlow Lite model
+# This file represents the trained model for lane detection
+# In a real implementation, this would be a binary .tflite file
+# 
+# Model should be trained on lane detection dataset
+# Input: 224x224x3 RGB image
+# Output: Lane line coordinates and confidence scores
