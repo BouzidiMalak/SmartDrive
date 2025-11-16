@@ -1,7 +1,0 @@
-# Placeholder for object detection TensorFlow Lite model
-# This file represents the trained model for object detection
-# In a real implementation, this would be a binary .tflite file
-# 
-# Model should be trained on automotive object detection dataset
-# Input: 320x320x3 RGB image
-# Output: Bounding boxes, class labels, and confidence scores

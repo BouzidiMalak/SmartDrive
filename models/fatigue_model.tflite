@@ -1,7 +1,0 @@
-# Placeholder for fatigue detection TensorFlow Lite model
-# This file represents the trained model for driver fatigue detection
-# In a real implementation, this would be a binary .tflite file
-# 
-# Model should be trained on facial landmark detection dataset
-# Input: 128x128x1 grayscale image
-# Output: 68 facial landmark coordinates
