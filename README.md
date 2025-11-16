@@ -83,63 +83,6 @@ SmartDrive-ADAS/
 └── README.md               # This file
 ```
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.8 or higher
-- OpenCV 4.5+
-- TensorFlow Lite 2.8+
-- USB camera or Raspberry Pi camera module
-- (Optional) OBD-II adapter for vehicle integration
-
-### Installation
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/yourusername/SmartDrive-ADAS.git
-cd SmartDrive-ADAS
-```
-
-2. **Install dependencies:**
-```bash
-pip install opencv-python tensorflow numpy scipy
-pip install obd  # For OBD-II functionality (optional)
-```
-
-3. **Run the system:**
-```bash
-cd software
-python main.py
-```
-
-### Command Line Options
-
-```bash
-python main.py --help
-
-Options:
-  --camera INT        Camera device index (default: 0)
-  --enable-obd       Enable OBD-II data reading
-  --no-display      Run in headless mode
-```
-
-
-## 🔧 Hardware Setup
-
-### Minimum Requirements
-- **Processing Unit**: Raspberry Pi 4 (4GB) or Jetson Nano
-- **Camera**: USB webcam or Pi camera (1080p recommended)
-- **Display**: 7" touchscreen (optional)
-- **Storage**: 32GB microSD card minimum
-
-### Optional Components
-- **OBD-II Adapter**: ELM327 Bluetooth/WiFi adapter
-- **GPS Module**: For location-aware features
-- **Accelerometer**: For motion sensing
-- **Speaker**: For audio alerts
-
-
 
 
 
